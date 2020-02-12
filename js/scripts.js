@@ -5,7 +5,8 @@ jQuery(document).ready(function(){
   });
 
   jQuery("p").click(function() {
-    alert("This is a paragraph.");
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
   });
 
   jQuery("img").click(function() {
