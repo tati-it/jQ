@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
     alert("I told you, THIS IS A HEADER!");
   });
 
-  jQuery("p").click(function() {
+  jQuery(".clickable").click(function() {
     $(".walrus-showing").toggle();
     $(".walrus-hidden").toggle();
   });
